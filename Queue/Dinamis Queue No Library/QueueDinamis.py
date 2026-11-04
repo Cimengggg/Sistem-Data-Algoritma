@@ -1,4 +1,4 @@
- class Node:
+class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
@@ -41,6 +41,6 @@ class Queue:
         cur = self.front
         items = []
         while cur:
-            items.append(str(cur.data))
+            items.append(cur.data)
             cur = cur.next
-        print("Front -> " + " -> ".join(items) + " <- Rear" if items else "Queue kosong")
+        print(items if items else "Queue kosong")
