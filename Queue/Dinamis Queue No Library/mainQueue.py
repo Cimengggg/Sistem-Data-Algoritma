@@ -1,4 +1,4 @@
-from myqueue import Queue
+from QueueDinamis import Queue
 
 # Studi kasus: antrian layanan
 antrian = Queue()
